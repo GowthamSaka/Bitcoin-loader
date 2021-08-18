@@ -1,0 +1,48 @@
+/* Write your CSS code here */
+.coin-items-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+
+.coin-type-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.coin-logo {
+  height: 35px;
+  width: 35px;
+}
+
+.coin-name {
+  color: #fff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  padding-left: 8px;
+}
+
+.dollar-card {
+  display: flex;
+  margin-right: 15px;
+}
+
+.dollars {
+  color: #fff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+  padding-right: 25px;
+}
+
+.dollars1 {
+  color: #fff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+}
